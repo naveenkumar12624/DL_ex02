@@ -40,10 +40,7 @@ Load the dataset into the model
 Test the model by predicting and output
 
 ## PROGRAM
-```
-Developed by: M.Hariharan
-Register no: 212221230034
-```
+
 ### Importing the require packages
 ```
 import pandas as pd
