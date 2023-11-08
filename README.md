@@ -1,23 +1,18 @@
-# Developing a Neural Network Classification Model
+# EX-02 - Developing a Neural Network Classification Model
 
 ## AIM
 
 To develop a neural network classification model for the given dataset.
 
 ## Problem Statement
-
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
-
 In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D ). Then, they performed segmented outreach and communication for a different segment of customers. This strategy has work exceptionally well for them. They plan to use the same strategy for the new markets.
-
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
-
 ![](6.png)
 
 ## DESIGN STEPS
-
 ### STEP 1:
 Import the required packages
 
@@ -155,26 +150,20 @@ with open('customer_data.pickle', 'rb') as fh:
    [X_train_scaled,y_train,X_test_scaled,y_test,customers_1,customer_df_cleaned,scaler_age,enc,one_hot_enc,le]=pickle.load(fh)
 ```
 ## Dataset Information
-
 ![](1.png)
 
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
 ![](2.png)
 
 ### Classification Report
-
 ![](3.png)
 
 ### Confusion Matrix
-
 ![](4.png)
 
-
 ### New Sample Data Prediction
-
 ![](5.png)
 
 ## RESULT
